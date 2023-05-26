@@ -1,0 +1,20 @@
+{
+	"article" : {
+		"auth_required" : 0,
+		"max_file_size" : 2,
+		"allowed_file_extensions" : ["jpg","png","jpeg","pdf","doc","docx","xls","xlsx","txt"],
+		"max_no_of_files" : 10
+	},
+	"frontend-page" : {
+		"auth_required" : 0,
+		"max_file_size" : 2,
+		"allowed_file_extensions" : ["jpg","png","jpeg","pdf","doc","docx","xls","xlsx","txt"],
+		"max_no_of_files" : 10
+	},
+	"frontend-block" : {
+		"auth_required" : 0,
+		"max_file_size" : 2,
+		"allowed_file_extensions" : ["jpg","png","jpeg","pdf","doc","docx","xls","xlsx","txt"],
+		"max_no_of_files" : 10
+	}
+}

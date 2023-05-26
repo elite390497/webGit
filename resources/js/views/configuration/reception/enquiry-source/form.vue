@@ -1,0 +1,95 @@
+<template>
+    <form @submit.prevent="proceed" @keydown="enquirySourceForm.errors.clear($event.target.name)">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="form-group">
+                    <label for="">{{trans('reception.enquiry_source_name')}}</label>
+                    <input class="form-control" type="text" v-model="enquirySourceForm.name" name="name" :placeholder="trans('reception.enquiry_source_name')">
+                    <show-error :form-name="enquirySourceForm" prop-name="name"></show-error>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="form-group">
+                    <label for="">{{trans('reception.enquiry_source_description')}}</label>
+                    <input class="form-control" type="text" v-model="enquirySourceForm.description" name="description" :placeholder="trans('reception.enquiry_source_description')">
+                    <show-error :form-name="enquirySourceForm" prop-name="description"></show-error>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-right">
+            <router-link to="/configuration/reception/enquiry/source" class="btn btn-danger waves-effect waves-light " v-show="id">{{trans('general.cancel')}}</router-link>
+            <button v-if="!id" type="button" class="btn btn-danger waves-effect waves-light " @click="$emit('cancel')">{{trans('general.cancel')}}</button>
+            <button type="submit" class="btn btn-info waves-effect waves-light">
+                <span v-if="id">{{trans('general.update')}}</span>
+                <span v-else>{{trans('general.save')}}</span>
+            </button>
+        </div>  
+    </form>
+</template>
+
+
+<script>
+    export default {
+        data() {
+            return {
+                enquirySourceForm: new Form({
+                    name : '',
+                    description : ''
+                })
+            };
+        },
+        props: ['id'],
+        mounted() {
+            if(this.id)
+                this.get();
+        },
+        methods: {
+            proceed(){
+                if(this.id)
+                    this.update();
+                else
+                    this.store();
+            },
+            store(){
+                let loader = this.$loading.show();
+                this.enquirySourceForm.post('/api/reception/enquiry/source')
+                    .then(response => {
+                        toastr.success(response.message);
+                        this.$emit('completed');
+                        loader.hide();
+                    })
+                    .catch(error => {
+                        loader.hide();
+                        helper.showErrorMsg(error);
+                    });
+            },
+            get(){
+                let loader = this.$loading.show();
+                axios.get('/api/reception/enquiry/source/'+this.id)
+                    .then(response => {
+                        this.enquirySourceForm.name = response.name;
+                        this.enquirySourceForm.description = response.description;
+                        loader.hide();
+                    })
+                    .catch(error => {
+                        loader.hide();
+                        helper.showErrorMsg(error);
+                        this.$router.push('/configuration/reception/enquiry/source');
+                    });
+            },
+            update(){
+                let loader = this.$loading.show();
+                this.enquirySourceForm.patch('/api/reception/enquiry/source/'+this.id)
+                    .then(response => {
+                        toastr.success(response.message);
+                        loader.hide();
+                        this.$router.push('/configuration/reception/enquiry/source');
+                    })
+                    .catch(error => {
+                        loader.hide();
+                        helper.showErrorMsg(error);
+                    });
+            }
+        }
+    }
+</script>

@@ -1,0 +1,52 @@
+{
+	"transfer_certificate_formats": [
+		{
+			"id": "cbse1819",
+			"name": "CBSE 2018-19",
+			"variables": [
+				"admission_date_and_class",
+				"last_exam_with_result",
+				"last_exam_if_failed",
+				"subject_studied",
+				"qualified_for_promotion",
+				"fee_paid_upto_month",
+				"fee_concession_detail",
+				"total_working_days",
+				"total_present_days",
+				"scout_guide",
+				"co_curricular_activities",
+				"general_conduct",
+				"school_leaving_reason",
+				"remarks"
+			]
+		}
+	],
+	"custom_field_forms": [
+		"student_basic",
+		"employee_basic",
+		"student_parent",
+		"student_contact",
+		"employee_contact",
+		"student_registration",
+		"student_online_registration"
+	],
+	"student_attendance_methods": [
+		"once",
+		"more_than_once",
+		"subject_wise"
+	],
+	"student_termination_reasons": [
+		"transferred",
+		"passed",
+		"withdrawn"
+	],
+	"online_exam_types": [
+		"mcq",
+		"mixed"
+	],
+	"online_exam_question_types": [
+		"mcq",
+		"single_line",
+		"multiple_line"
+	]
+}

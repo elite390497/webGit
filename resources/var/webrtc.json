@@ -1,0 +1,18 @@
+{
+    "socket": "",
+    "ice_servers": [
+        {
+            "urls": ""
+        },
+        {
+          "urls": "",
+          "secret": "",
+          "username": "",
+          "credential": "",
+          "expires_in": "43200",
+          "time_difference": "0",
+          "requires_credential": true,
+          "expirable_credentials": true
+        }
+    ]
+}

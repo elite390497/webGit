@@ -1,0 +1,2 @@
+(self.webpackChunkInstiKit=self.webpackChunkInstiKit||[]).push([[8556],{79402:(e,t,n)=>{"use strict";n.r(t),n.d(t,{default:()=>s});const i={methods:{},mounted:function(){$("body").removeClass("fix-header fix-sidebar"),helper.notification()},destroyed:function(){}};const s=(0,n(51900).Z)(i,(function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",[n("tour-notification",{staticClass:"d-none d-sm-inline"}),e._v(" "),n("router-view")],1)}),[],!1,null,null,null).exports}}]);
+//# sourceMappingURL=guestPage.js.map?id=1e5d58e8e5c0641347b3

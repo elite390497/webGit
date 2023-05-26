@@ -1,0 +1,2 @@
+(self.webpackChunkInstiKit=self.webpackChunkInstiKit||[]).push([[3646],{71195:(n,e,u)=>{"use strict";u.r(e),u.d(e,{default:()=>l});const l=(0,u(51900).Z)({},undefined,undefined,!1,null,null,null).exports}}]);
+//# sourceMappingURL=edit.js.map?id=17bf334e0796e27366ef

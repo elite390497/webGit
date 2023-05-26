@@ -1,0 +1,190 @@
+{
+	"employee_categories": [
+		{
+			"name": "Administrative Staff",
+			"description": "",
+			"designations": [
+				{
+					"name": "Director",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Manager",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Principal",
+					"is_teaching_employee": 1,
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Teaching Staff",
+			"description": "",
+			"designations": [
+				{
+					"name": "School Coordinator",
+					"is_teaching_employee": 1,
+					"description": ""
+				},
+				{
+					"name": "Post Graduate Teacher",
+					"is_teaching_employee": 1,
+					"description": ""
+				},
+				{
+					"name": "Trained Graduate Teacher",
+					"is_teaching_employee": 1,
+					"description": ""
+				},
+				{
+					"name": "Primary Teacher",
+					"is_teaching_employee": 1,
+					"description": ""
+				},
+				{
+					"name": "Nursery Trained Teacher",
+					"is_teaching_employee": 1,
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Accounting Staff",
+			"description": "",
+			"designations": [
+				{
+					"name": "Account Manager",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Accountant",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Cashier",
+					"is_teaching_employee": 0,
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Library Staff",
+			"description": "",
+			"designations": [
+				{
+					"name": "Library Manager",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Librarian",
+					"is_teaching_employee": 0,
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Hostel Staff",
+			"description": "",
+			"designations": [
+				{
+					"name": "Hostel Manager",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Warden",
+					"is_teaching_employee": 0,
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Transport Staff",
+			"description": "",
+			"designations": [
+				{
+					"name": "Transport Manager",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Driver",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Conductor",
+					"is_teaching_employee": 0,
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Non Teaching Staff",
+			"description": "",
+			"designations": [
+				{
+					"name": "Supervisor",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Security Guard",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Cleaning Staff",
+					"is_teaching_employee": 0,
+					"description": ""
+				},
+				{
+					"name": "Sweeper",
+					"is_teaching_employee": 0,
+					"description": ""
+				}
+			]
+		}
+	],
+	"hierarchy": [
+		{
+			"name": "Director",
+			"sub_designations": ["Manager"]
+		},
+		{
+			"name": "Manager",
+			"sub_designations": ["Principal","Account Manager","Transport Manager","Hostel Manager","Library Manager","Supervisor"]
+		},
+		{
+			"name": "Principal",
+			"sub_designations": ["School Coordinator", "Post Graduate Teacher","Trained Graduate Teacher","Primary Teacher","Nursery Trained Teacher"]
+		},
+		{
+			"name": "Account Manager",
+			"sub_designations": ["Accountant", "Cashier"]
+		},
+		{
+			"name": "Transport Manager",
+			"sub_designations": ["Driver", "Conductor"]
+		},
+		{
+			"name": "Library Manager",
+			"sub_designations": ["Librarian"]
+		},
+		{
+			"name": "Hostel Manager",
+			"sub_designations": ["Warden"]
+		},
+		{
+			"name": "Supervisor",
+			"sub_designations": ["Security Guard", "Cleaning Staff", "Sweeper"]
+		}
+	]
+}

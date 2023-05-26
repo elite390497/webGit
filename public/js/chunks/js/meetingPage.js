@@ -1,0 +1,2 @@
+(self.webpackChunkInstiKit=self.webpackChunkInstiKit||[]).push([[3188],{30125:(t,n,e)=>{"use strict";e.r(n),e.d(n,{default:()=>u});const s={data:function(){return{}},components:{},mounted:function(){},methods:{},watch:{}};const u=(0,e(51900).Z)(s,(function(){var t=this.$createElement,n=this._self._c||t;return n("div",[n("router-view")],1)}),[],!1,null,null,null).exports}}]);
+//# sourceMappingURL=meetingPage.js.map?id=18233e3e6ba4204e776b

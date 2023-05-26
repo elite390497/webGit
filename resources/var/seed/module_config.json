@@ -1,0 +1,634 @@
+{	
+	"complaint_types": [
+		{
+			"name": "Study",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Fee",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Trasport",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Uniform",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"calling_purposes": [
+		{
+			"name": "Study",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Fee Reminder",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Trasport",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Circular",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"enquiry_types": [
+		{
+			"name": "Self Enquiry",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Force Enquiry",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"enquiry_sources": [
+		{
+			"name": "Parents",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Social Media",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Local Advertisement",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Others",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"visiting_purposes": [
+		{
+			"name": "Enquiry",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Admission",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Transfer Certificate",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Fee Payment",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Parents Meeting",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Complaint",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Business",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Others",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"transaction_categories": [
+		{
+			"name": "Donation",
+			"type": "income",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Loan",
+			"type": "income",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Others",
+			"type": "income",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Stationary",
+			"type": "expense",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Transportation",
+			"type": "expense",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Others",
+			"type": "expense",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"payment_methods": [
+		{
+			"name": "Cash",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Cheque",
+			"description": "",
+			"options": "{\"requires_instrument_number\": true,\"requires_instrument_date\": true,\"requires_instrument_clearing_date\": true,\"requires_instrument_bank_detail\": true,\"requires_reference_number\": false}"
+		},
+		{
+			"name": "Internet Banking",
+			"description": "",
+			"options": "{\"requires_reference_number\": false}"
+		}
+	],
+	"student_groups": [
+		{
+			"name": "Staff Child",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Student w/o Transport",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"student_document_types": [
+		{
+			"name": "Birth Certificate",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Transfer Certificate",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Marksheet",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Miscellaneous",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"departments": [
+		{
+			"name": "Administration Department",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Academic Department",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "HR Department",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "IT & Networking Department",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"employee_groups": [
+		{
+			"name": "Regular Employee",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Adhoc Employee",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Probation Employee",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"employee_document_types": [
+		{
+			"name": "Birth Certificate",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Salary Certificate",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Marksheet",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Experience Certificate",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Bank Documents",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Passport",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Driving License",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Miscellaneous",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"vehicle_document_types": [
+		{
+			"name": "Registration Certificate",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Fitness Certificate",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Insurance Certificate",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Others",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"vehicle_fuel_types": [
+		{
+			"name": "Diesel",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Petrol",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "CNG",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"event_types": [
+		{
+			"name": "In House Event",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Inter School Events",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "State Level Events",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "National Level Events",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"article_types": [
+		{
+			"name": "Circular",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "News",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Blog",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Media",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"religions": [
+		{
+			"name": "Hindu",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Christian",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Muslim",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Sikh",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Buddhist",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Jews",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Jainism",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"blood_groups": [
+		{
+			"name": "O-",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "O+",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "A-",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "A+",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "B-",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "B+",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "AB-",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "AB+",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"book_authors": [
+		{
+			"name": "William Shakespeare",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "J.D. Salinger",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "William Golding",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "John Steinbeck",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Paulo Coelho",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"book_publishers": [
+		{
+			"name": "Penguin Random House",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Hachette Livre",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "HarperCollins",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Pan Macmillan",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Oxford University Press",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Pearson Education",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"book_conditions": [
+		{
+			"name": "New",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Good",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Fair",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Old",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Poor",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"book_languages": [
+		{
+			"name": "English",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Hindi",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Urdu",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "French",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "German",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Spanish",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Sanskrit",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Tamil",
+			"description": "",
+			"options": "[]"
+		}
+	],
+	"book_topics": [
+		{
+			"name": "Academic",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Philosophy",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Communication",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "History",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Life Science",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Science & Technology",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Fiction",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Mythological & Religious",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Encyclopedia & Dictionary",
+			"description": "",
+			"options": "[]"
+		},
+		{
+			"name": "Literature",
+			"description": "",
+			"options": "[]"
+		}
+	]
+}

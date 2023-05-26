@@ -1,0 +1,682 @@
+[
+	{
+
+		"module": "institute",
+		"translation": "institute.institute",
+		"menu": {
+			"name": "institute_document",
+			"translation": "institute.document",
+			"visibility": true,
+			"submenu": []
+		}
+	},
+	{
+		"module": "reception",
+		"translation": "reception.reception",
+		"menu": {
+			"name": "reception",
+			"translation": "reception.reception",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "enquiry",
+					"translation": "reception.admission_enquiry",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "visitor_log",
+					"translation": "reception.visitor_log",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "call_log",
+					"translation": "reception.call_log",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "postal_record",
+					"translation": "reception.postal_record",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "complaint",
+					"translation": "reception.complaint",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "gate_pass",
+					"translation": "reception.gate_pass",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "visitor_message",
+					"translation": "reception.visitor_message",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "academic",
+		"translation": "academic.academic",
+		"menu": {
+			"name": "academic",
+			"translation": "academic.academic",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "academic_session",
+					"translation": "academic.academic_session",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "course",
+					"translation": "academic.course",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "batch",
+					"translation": "academic.batch",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "class_teacher",
+					"translation": "academic.class_teacher",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "subject",
+					"translation": "academic.subject",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "subject_teacher",
+					"translation": "academic.subject_teacher",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "class_timing",
+					"translation": "academic.class_timing",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "timetable",
+					"translation": "academic.timetable",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "certificate",
+					"translation": "academic.certificate",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "student",
+		"translation": "student.student",
+		"menu": {
+			"name": "student",
+			"translation": "student.student",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "student_import",
+					"translation": "student.import",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "registration",
+					"translation": "student.registration",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "student_list",
+					"translation": "student.student_list",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "roll_number",
+					"translation": "student.roll_number",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "student_id_card",
+					"translation": "student.id_card",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "student_image_upload",
+					"translation": "student.image_upload",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "student_attendance",
+					"translation": "student.attendance",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "promotion",
+					"translation": "student.promotion",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "termination",
+					"translation": "student.termination",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "student_parent",
+					"translation": "student.parent",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "report",
+					"translation": "student.report",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "employee",
+		"translation": "employee.employee",
+		"menu": {
+			"name": "employee",
+			"translation": "employee.employee",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "employee_import",
+					"translation": "employee.import",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "employee_list",
+					"translation": "employee.employee_list",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "employee_id_card",
+					"translation": "employee.id_card",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "employee_attendance",
+					"translation": "employee.attendance",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "employee_leave",
+					"translation": "employee.leave",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "employee_payroll",
+					"translation": "employee.payroll",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "exam",
+		"translation": "exam.exam",
+		"menu": {
+			"name": "exam",
+			"translation": "exam.exam",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "exam_schedule",
+					"translation": "exam.schedule",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "exam_record_mark",
+					"translation": "exam.record",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "exam_report_card",
+					"translation": "exam.report",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "exam_topper_report",
+					"translation": "exam.topper_report",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "exam_wise_report",
+					"translation": "exam.exam_wise_report",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "term_wise_report",
+					"translation": "exam.term_wise_report",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "online_exam",
+					"translation": "exam.online_exam",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "finance",
+		"translation": "finance.finance",
+		"menu": {
+			"name": "finance",
+			"translation": "finance.finance",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "fee_group",
+					"translation": "finance.fee_group",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "fee_head",
+					"translation": "finance.fee_head",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "transport_fee",
+					"translation": "transport.fee",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "fee_concession",
+					"translation": "finance.fee_concession",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "fee_allocation",
+					"translation": "finance.fee_allocation",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "account",
+					"translation": "finance.account",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "income",
+					"translation": "finance.income",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "expense",
+					"translation": "finance.expense",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "account_transfer",
+					"translation": "finance.account_transfer",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "finance_report",
+					"translation": "general.report",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "transport",
+		"translation": "transport.transport",
+		"menu": {
+			"name": "transport",
+			"translation": "transport.transport",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "transport_route",
+					"translation": "transport.transport_route",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "vehicle",
+					"translation": "transport.vehicle",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "vehicle_incharge",
+					"translation": "transport.vehicle_incharge",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "vehicle_document",
+					"translation": "transport.document",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "vehicle_fuel",
+					"translation": "transport.fuel",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "vehicle_log",
+					"translation": "transport.log",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "vehicle_service_record",
+					"translation": "transport.service_record",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "transport_report",
+					"translation": "general.report",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "calendar",
+		"translation": "calendar.calendar",
+		"menu": {
+			"name": "calendar",
+			"translation": "calendar.calendar",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "holiday",
+					"translation": "calendar.holiday",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "event",
+					"translation": "calendar.event",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "celebration",
+					"translation": "calendar.celebration",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "resource",
+		"translation": "resource.resource",
+		"menu": {
+			"name": "resource",
+			"translation": "resource.resource",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "assignment",
+					"translation": "resource.assignment",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "notes",
+					"translation": "resource.notes",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "lesson_plan",
+					"translation": "resource.lesson_plan",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "syllabus",
+					"translation": "resource.syllabus",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "library",
+		"translation": "library.library",
+		"menu": {
+			"name": "library",
+			"translation": "library.library",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "book",
+					"translation": "library.book",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "issue_book",
+					"translation": "library.issue",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "return_book",
+					"translation": "library.return",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "inventory",
+		"translation": "inventory.inventory",
+		"menu": {
+			"name": "inventory",
+			"translation": "inventory.inventory",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "stock_category",
+					"translation": "inventory.stock_category",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "stock_item",
+					"translation": "inventory.stock_item",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "vendor",
+					"translation": "inventory.vendor",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "stock_purchase",
+					"translation": "inventory.stock_purchase",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "stock_transfer",
+					"translation": "inventory.stock_transfer",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "post",
+		"translation": "post.post",
+		"menu": {
+			"name": "post",
+			"translation": "post.post",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "post_feed",
+					"translation": "post.feed",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "article",
+					"translation": "post.article",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "communication",
+		"translation": "communication.communication",
+		"menu": {
+			"name": "communication",
+			"translation": "communication.communication",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "communication_history",
+					"translation": "communication.history",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "send_sms",
+					"translation": "communication.sms",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "send_email",
+					"translation": "communication.email",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "frontend",
+		"translation": "frontend.frontend",
+		"menu": {
+			"name": "frontend",
+			"translation": "frontend.frontend",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "frontend_page",
+					"translation": "frontend.page",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "frontend_menu",
+					"translation": "frontend.menu",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "frontend_block",
+					"translation": "frontend.block",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "utility",
+		"translation": "utility.utility",
+		"menu": {
+			"name": "utility",
+			"translation": "utility.utility",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "todo",
+					"translation": "utility.todo",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "backup",
+					"translation": "utility.backup",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "ip_filter",
+					"translation": "utility.ip_filter",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	}
+]

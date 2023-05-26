@@ -1,0 +1,26 @@
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+@import '~bootstrap/scss/bootstrap';
+@import 'custom-bootstrap-rtl';
+@import 'variable';
+@import 'app';
+@import 'pages';
+@import 'sidebar-rtl';
+@import 'widgets';
+@import 'grid';
+@import 'responsive'; 
+@import 'spinners.scss';
+@import 'animate.scss';
+@import '~@fortawesome/fontawesome-free/css/all';
+@import '~toastr/toastr';
+@import './../plugins/summernote/summernote-bs4.scss';
+@import '~vue-multiselect/dist/vue-multiselect.min.css';
+@import '~fullcalendar/dist/fullcalendar.css';
+@import 'rtl';
+@import 'custom';
+@import 'custom-rtl';
+  

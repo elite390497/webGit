@@ -1,0 +1,2 @@
+(self.webpackChunkInstiKit=self.webpackChunkInstiKit||[]).push([[6153],{13720:(t,e,n)=>{"use strict";n.r(e),n.d(e,{default:()=>l});const s={};const l=(0,n(51900).Z)(s,(function(){var t=this.$createElement,e=this._self._c||t;return e("div",[e("router-view")],1)}),[],!1,null,null,null).exports}}]);
+//# sourceMappingURL=utility.js.map?id=f6e95b662e6a82371642

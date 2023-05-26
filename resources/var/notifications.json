@@ -1,0 +1,256 @@
+{
+	"frontend_home": {
+		"title": {
+			"heading": "Hi there! I am InstiKit Bot!",
+			"subheading": "I will guide you through this product in 5 minutes, if you allow me to do so!",
+			"nextUrl": "/articles",
+			"disableCloseForever": 1
+		},
+		"message": "<p>Experience the Best! <ul><li>Feature Rich Exam Module</li> <li>Full Featured HR Module</li> <li>Most Flexible Fee Module</li> <li>Detailed Student & Employee Profile</li></ul> We <strong>BET</strong> you cannot get these detailed module in any other product available on CodeCanyon.</p> <p>Do you know this website is built & managed by InstiKit App? You need not to be expert in coding. You can manage menus in header, footer, change slider image & even create new pages & blocks. </p><p> Yes, Its simple & you can save upto $500 for designing a website.</p> <p>Check the Article Feed page!</p>"
+	},
+	"frontend_article": {
+		"title": {
+			"heading": "You are watching Article Feed!",
+			"subheading": "Scroll down till end, put your mouse over any article. Now click an article!",
+			"nextUrl": "/calendar",
+			"disableCloseForever": 1
+		},
+		"message": "<p>Post Articles, Blogs, News & even Circulars in website. Any public post from InstiKit App will be appear right here in Article Feed. I am sure, you liked the feed page design.</p> <p>Check the Calendar Page now!</p>"
+	},
+	"frontend_calendar": {
+		"title": {
+			"heading": "Here is School Calendar!",
+			"subheading": "I know, You are certainly missing this calendar in your existing website!",
+			"nextUrl": "/teachers",
+			"disableCloseForever": 1
+		},
+		"message": "<p>Your holidays, events are already marked in your School Calendar. Share your ideas what more you want to list in Calendar page with us. We will do it for you!</p> <p>Next, Check the Teacher Page!</p>"
+	},
+	"frontend_teacher": {
+		"title": {
+			"heading": "and Here is list of Teachers!",
+			"subheading": "Its always good to have list of teachers in your School Website!",
+			"nextUrl": "/page/about-us",
+			"disableCloseForever": 1
+		},
+		"message": "<p>You wanted to list your teachers in school website, we have made it possible. List your teachers with photo, name, designation, mobile, contact number or date of joining with configuration option. What else you want, let us know!</p> <p>Move on, Check a Custom About Us Page.</p>"
+	},
+	"frontend_custom": {
+		"title": {
+			"heading": "You are in Custom Page!",
+			"subheading": "Create a page for anything, publish it in your website!",
+			"nextUrl": "/login",
+			"disableCloseForever": 1
+		},
+		"message": "<p>Here is a custom page we have built for you! You can create any number of custom page. Put it in Header Menu or Footer Menu. I have also created small blocks of information for you. You can also upload attachments in it. Amazing! Right?</p> <p>Let's Login & Check the InstiKit App.</p>"
+	},
+	"login": {
+		"title": {
+			"heading": "Time to Explore InstiKit App",
+			"subheading": "You must login, we have 8 predefined roles, 150 permissions. You can define your own roles too!",
+			"disableCloseForever": 1
+		},
+		"message": "<p>Experience the Best! <ul><li>Feature Rich Exam Module</li> <li>Full Featured HR Module</li> <li>Most Flexible Fee Module</li> <li>Detailed Student & Employee Profile</li></ul> We <strong>BET</strong> you cannot get these detailed module in any other product available on CodeCanyon. Login without entering email & password, click on Auto Login As button, choose Admin Role to login. Simple it is!</p>"
+	},
+	"login_with_different_role": {
+		"title": {
+			"heading": "You want to login again with different role? You should!",
+			"subheading": "Try Principal or Student or Parent Role. Each role has its own dashboard."
+		},
+		"message": "<p>Its easy, click again on Auto Login button & choose the role you want to login!</p>"
+	},
+	"dashboard_academic": {
+		"title": {
+			"heading": "You are in Dashboard!",
+			"subheading": "You can either watch Product Video Tour or Let me guide you throughout the product.",
+			"nextUrl": "/academic/timetable/7e4448d8-0140-4549-96ca-01df6b93b767/allocation",
+			"disableCloseForever": 1
+		},
+		"message": "<p>The dashboard contains summary of information from all modules. Every role has different dashboard.</p><p>If you wish to see new widget or report here, let us know. We are listening.</p> <p>Take your mouse over Academic Menu in left sidebar, choose Timetable to check how easily you can manage the Timetable.</p> "
+	},
+	"dashboard_student": {
+		"title": {
+			"heading": "Let's go through Student Module",
+			"subheading": "From student registration to termination, every thing is available in InstiKit in detail.",
+			"nextUrl": "/student/admission",
+			"disableCloseForever": 1
+		},
+		"message": "<p>Take your mouse over Student Menu in left sidebar, choose Admission to check how easily you can list students and take print out of reports with different columns & filters.</p>"
+	},
+	"dashboard_student_attendance": {
+		"title": {
+			"heading": "Let's go through Student Attendance",
+			"subheading": "Monthly view of student attendance will certainly help you in recording attendance",
+			"nextUrl": "/student/attendance",
+			"disableCloseForever": 1
+		},
+		"message": "<p>Take your mouse over Student Menu in left sidebar, choose Attendance to check how easily you can record student attendances.</p>"
+	},
+	"dashboard_employee": {
+		"title": {
+			"heading": "Time to check Employee Module",
+			"subheading": "Move your mouse over Employee Menu in left sidebar, select any employee, go to Designation History.",
+			"nextUrl": "/employee/list"
+		},
+		"message": "<p>Do you know with InstiKit you can create Hierarchical Structure of employees of your institute. Yes, Now let Principal manage all staff, staff manage their junior staff and so on. Isn't it Awesome?</p>"
+	},
+	"dashboard_finance": {
+		"title": {
+			"heading": "Carry on! Move to most beautifully written Finance Module.",
+			"subheading": "Move your mouse over Finance Menu in left sidebar, choose Fee Allocation. Click on any fee allocation row detail to see the magic.",
+			"nextUrl": "/finance/feee/allocation"
+		},
+		"message": "<p>I bet, whatever your school fee structure is, you can easily implement it in InstiKit. Multiple Installments, due dates, late fee, optional fee, fee concession, different transport fee and everything which you will not find anywhere. </p>"
+	},
+	"dashboard_transport": {
+		"title": {
+			"heading": "Transport Module is not all about Stoppages!",
+			"subheading": "Check it now, move your mouse over Transport Menu in left sidebar, choose Fuel Menu, check some fuel input records.",
+			"nextUrl": "/transport/vehicle/fuel"
+		},
+		"message": "<p>Transport module with Vehicle Performance? Yes, Its only available with InstiKit. Track your vehicle service record, running log, fuel consumption.</p>"
+	},
+	"dashboard_frontend": {
+		"title": {
+			"heading": "Get Free Frontend Website of your Institute!",
+			"subheading": "Move your mouse over Frontend Menu in left sidebar, choose Page Menu, start editing website content!",
+			"nextUrl": "/frontend/page"
+		},
+		"message": "<p>How much you spent annually for website of your institute? $200, $300, $400 or $500? With InstiKit, you can have your website ready with minutes. Website with slider images, calendar, articles, events, teacher list & a contact form.</p>"
+	},
+	"dashboard_post": {
+		"title": {
+			"heading": "How do you manage posts?",
+			"subheading": "Move your mouse over Post Menu in left sidebar, choose Article, start writing!",
+			"nextUrl": "/post/article"
+		},
+		"message": "<p>Publishing blogs, circular, news is so much fun with InstiKit. You will love the Feed Page. Its specially designed for you! Isn't it refreshing?</p>"
+	},
+	"dashboard_calendar": {
+		"title": {
+			"heading": "Calendars at one Place",
+			"subheading": "Move your mouse to Calendar Menu in left sidebar, choose Event, let people know about your events",
+			"nextUrl": "/calendar/event"
+		},
+		"message": "<p>Store multiple holidays at once, create events for different audiences, get birth dates of Employees, Students. </p>"
+	},
+	"dashboard_thanks": {
+		"title": {
+			"heading": "Ready to Purchase?",
+			"subheading": "We are looking for your suggestions, feedback! Do send us at hello@scriptmint.com"
+		},
+		"message": "<p>Hope you enjoyed Live Demo. Click on the Buy Now button available in https://instikit.com to purchase. I will again help you in Installation.</p>"
+	},
+	"reception": {
+		"title": {
+			"heading": "Let your reception handle enquiry, visitors!",
+			"subheading": "",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>With enquiry module, you can record admission enquiries you receives. Followup them, convert into admission.</p> <p> Visitor log is very sensitive data now a days, store each visitor comes to your school.</p> <p> Now every message you recieve on your website will be record in visitor message module.</p>"
+	},
+	"academic": {
+		"title": {
+			"heading": "You know, InstiKit is authored by an Education Coordinator with 10+ Years of Experience in field of Education.",
+			"subheading": "This is why we understand our requirement very well.",
+			"nextUrl": "/academic/timetable/7e4448d8-0140-4549-96ca-01df6b93b767/allocation"
+		},
+		"message": "<p>InstiKit offers you a full fledged academic planner for your school. Starting from academic sessions, courses, batches, subjects till timetable.</p> <p>While you can keep history of Class Teacher & Subject Teacher, no other system have this facility.</p> <p> The timetable module is something which allows you to store a copy of your school timetable & track it. Check the Timetable Module now!</p>"
+	},
+	"academic_timetable": {
+		"title": {
+			"heading": "Does your school operate in different shifts?",
+			"subheading": "We have the solution. You can manage multiple class timing and generate timetable accordingly.",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>InstiKit supports timetable creation with class allocation. You can easily create timetable for each batch then allocate the subject.</p> <p>You get the idea of no of subject each batch has been allotted. You can print single or multiple timetables.</p> <p>Moreover, you can always keep history of timetable with date effective. We are working on reporting module & it will be released soon.</p>"
+	},
+	"student": {
+		"title": {
+			"heading": "Registration, Admission, Promotion, Termination. This is what InstiKit offer!",
+			"subheading": "Everything you need to record student data is available in InstiKit.",
+			"nextUrl": "/student/admission"
+		},
+		"message": "<p>InstiKit is so designed in such a way that you keep all kinds of record of student data, ranging from basic information to bank account details.</p> <p>It supports student registration which is Pre-Admission process missing from most of the system. You can allot or reject seat after registration. You can also charge registration fee.</p> <p>After academic session end, easily promote students in bulk, you can also terminate the student. Check out the Admission List of Sudent now!</p>"
+	},
+	"student_admission": {
+		"title": {
+			"heading": "Student record is most important part of any School & InstiKit provides convinient way to handle it.",
+			"subheading": "List, Filter, Print Student record with ease - This is what we are aiming for!",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>Check the list of students here, you want to group some students? Create a group and assign group.</p> <p>Next time, filter the record with group or with multiple or single filters. Take print out of filtered records.</p> <p>Choose what columns you want to see, print or generate pdf of the list of filtered student's record. Everything is neat & clean.</p>"
+	},
+	"student_attendance": {
+		"title": {
+			"heading": "How tedious it is to record attendance of student!",
+			"subheading": "InstiKit offers Monthly View of Student Attendance, Just like your Attendance Register",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>If you are having 30 students, you might need 30 seconds to record student admission for a day.</p> <p>The user interface of Student Attendance in InstiKit allows you to register attendance quickly & efficiently.</p> <p>At the same time you get reports of no of student present and each student's attendance report. Choose Term 2017/18, Grade VI, Month August Attendance for demo.</p>"
+	},
+	"employee": {
+		"title": {
+			"heading": "Not every employee is same in School! We know your requirement.",
+			"subheading": "Create hierarchical structure of your employee, let top employees manage their subordinates.",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>Hierarchy of designation? Missing from your last School Management System! We have covered this.</p> <p>Use powerful permission editor to define who can do what! 8 Predefined roles, 150 permissions isn't enough. You can create new roles. Assign permission to them.</p> <p>You can keep history of employees designation i.e. promotion history & keep record of resignation. Coming up with HR & Payroll in September 2018.</p>"
+	},
+	"finance": {
+		"title": {
+			"heading": "Have you compared finance module of InstiKit with Others?",
+			"subheading": "If yes, then you might have noted the benefit of InstiKit over Other School Management System",
+			"nextUrl": "/finance/fee/allocation"
+		},
+		"message": "<p>Fee groups, fee heads, fee concessions, batch or course wise fee, multiple transport circle & fee. Everything you need is already available for fee collection.</p> <p>Do check the most flexible Fee Allocation system of InstiKit. </p>"
+	},
+	"finance_fee_allocation": {
+		"title": {
+			"heading": "Does my school fee structure fit in InstiKit? Obviously Yes!",
+			"subheading": "We are sure, that your school fee structure can be easily implemented in InstiKit.",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>Your school charges fee in Multiple Installments? No problem. Your school offers different concessions to different students? No problem.</p> <p>Your school has different types of transport fee? No problem. You can implement any fee structure with InstiKit & will love the interface.</p> <p>You can define optional fee, can charge late fee daily, weekly, monthly etc. We have already prepared what you need! Try to create one fee allocation!</p>"
+	},
+	"transport": {
+		"title": {
+			"heading": "Ever thought you need a system that can track your vehicle performance?",
+			"subheading": "If yes, then you are at the Right Place.",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>Transport is one of the most hectic department of any School. You may need to hire multiple employees to manage it but with InstiKit you will be able to manage it easily.</p> <p>Starting from Vehicle Documents (Registration Certificate, Insurance Certificate etc), track them with expirty dates. Track Vehicle Fuel consumption.</p> <p>Track vehicle running log, service record. We are coming up with many reports that will give you the idea of how your vehicles are performing!</p>"
+	},
+	"calendar": {
+		"title": {
+			"heading": "Prepare your School Calendar with InstiKit!",
+			"subheading": "Publish your School Calendar in your website in no time!",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>Define multiple holidays at once, make them visible to student's, parent's, teacher's dashboard. Filter & take a print out of holiday list.</p> <p>Publish event information, choose different audience & let them know in their dashboard calendar.</p> <p>Get list of birthday, anniversary, work anniversary celebration of students & employees at once!</p>"
+	},
+	"library": {
+		"title": {
+			"heading": "Have you tried library module of any other School Management System?",
+			"subheading": "Did it fulfill your requirement? No?",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>Just try InstiKit Library Module. You will have good time with it.</p> <p>List all your books at once, filter it by author, publisher, language, subject etc. Take print out or generate PDF of filtered books.</p> <p>Get record of all issued books, get record of books overdue for return, charge late fee daily, weekly, monthly etc. Anything else you need?</p>"
+	},
+	"post": {
+		"title": {
+			"heading": "Post Article, News, Blog, Circulars or whatever you want!",
+			"subheading": "Attach images, documents to these posts and make them visible on your website.",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>Yes, you can post all above & share with your colleagues, students, parents etc. You can also choose to post it publicly. Public post will be appeared in your School Website.</p> <p>Get list of all articles as Feed in single page!</p>"
+	},
+	"frontend": {
+		"title": {
+			"heading": "You want to have School Website? Do not search for developers!",
+			"subheading": "InstiKit will do it for you!",
+			"nextUrl": "/dashboard"
+		},
+		"message": "<p>What are the things you want to have in your website? A good looking website with events, news, circulars, teachers list etc.</p> <p>While you can create this website of your own, without need of any coding skill. Your InstiKit App data will be available to the website and everything will be synchonized always.</p> <p>You can create any number of pages, change menu, create multiple blocks to customize your website that fit your requirement with zero cost!</p>"
+	}
+}

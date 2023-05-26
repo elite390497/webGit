@@ -1,0 +1,259 @@
+{
+	"default_config": {
+		"setup_wizard": 1,
+		"color_theme": "blue",
+	    "direction": "ltr",
+	    "sidebar": "mini",
+	    "locale": "en",
+	    "timezone": "Asia/Kolkata",
+	    "first_day_of_week": "monday",
+	    "notification_position": "toast-bottom-right",
+	    "date_format": "DD-MM-YYYY",
+	    "time_format": "H:mm",
+	    "page_length": 10,
+	    "currency": "USD",
+	    "driver": "log",
+	    "from_address": "hello@example.com",
+	    "from_name": "Hello",
+	    "logo": "",
+	    "icon": "",
+	    "token_lifetime": 1440,
+	    "mobile_token_lifetime": 43200,
+	    "reset_password_token_lifetime": 30,
+	    "activity_log": 1,
+	    "email_log": 1,
+	    "reset_password": 1,
+	    "login_with_otp": 0,
+	    "footer_credit": "InstiKit by ScriptMint",
+	    "multilingual": 1,
+	    "ip_filter": 1,
+	    "email_template": 1,
+	    "online_registration": 0,
+	    "message": 1,
+	    "backup": 1,
+	    "todo": 1,
+	    "frontend_website": 1,
+	    "designation_subordinate_level": 1,
+	    "default_attendance_type": "daily",
+	    "student_late_attendance_time": "daily",
+	    "enable_registration": 0,
+	    "enable_registration_fee": 0,
+	    "default_max_strength_per_batch": 30,
+	    "default_roll_number_prefix": "",
+	    "system_admin_designation": "System Admin",
+	    "system_admin_employee_category": "System Admin",
+	    "employee_code_digit": 3,
+	    "transfer_certificate_digit": 3,
+	    "vehicle_fuel_quantity_decimal_place": 2,
+	    "library_max_book_issue_to_student": 4,
+	    "library_max_book_issue_to_employee": 6,
+	    "library_return_due_day_for_student": 15,
+	    "library_return_due_day_for_employee": 30,
+	    "library_late_fee_frequency_student": "daily",
+	    "library_late_fee_frequency_employee": "daily",
+	    "library_late_fee_applicable_student": 0,
+	    "library_late_fee_applicable_employee": 0,
+	    "library_late_fee_charge_student": 5,
+	    "library_late_fee_charge_employee": 5,
+        "allow_to_modify_student_attendance": 0,
+        "days_allowed_to_modify_student_attendance": 0,
+        "allow_to_mark_student_advance_attendance": 0,
+        "days_allowed_to_mark_student_advance_attendance": 0,
+        "max_sms_per_chunk": 100,
+	    "admission_number_digit": 3,
+	    "leave_holiday_calculation_mode": "ignore",
+	    "per_day_salary_calculation_basis": "calendar_period"
+	},
+	"default_template_field": { 
+		"user": "NAME, EMAIL, COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_WEBSITE, CURRENT_DATE_TIME, CURRENT_DATE, DATE_OF_BIRTH, DATE_OF_ANNIVERSARY"
+	},
+	"default_frontend_menus": [
+		"home","contact","events","articles","teachers","calendar"
+	],
+	"hidden_field": "xxxxxxxxxx",
+	"mobile_app_compatible": "2.5.0",
+	"private_config_variables": [
+		"smtp_username",
+		"smtp_password",
+        "mailgun_username",
+        "mailgun_password",
+        "mailgun_secret",
+        "mandrill_secret",
+        "nexmo_api_key",
+        "nexmo_api_secret",
+        "twilio_sid",
+        "twilio_token",
+        "razorpay_secret",
+        "payumoney_salt",
+        "stripe_private_key",
+        "paypal_client_secret",
+        "custom_sms_api_get_url"
+	],
+	"public_config": [
+		"color_theme",
+        "date_format",
+        "time_format",
+        "notification_position",
+        "direction",
+        "maintenance_mode",
+        "reset_password",
+        "two_factor_security",
+        "login_with_otp",
+        "https",
+        "mode",
+        "currency",
+        "footer_credit",
+        "ip_filter",
+        "logo",
+        "frontend_website",
+        "online_registration",
+        "online_registration_header",
+        "online_registration_success_message",
+        "institute_name",
+        "address_line_1",
+        "address_line_2",
+        "city",
+        "state",
+        "zipcode",
+        "country",
+        "phone",
+        "fax",
+        "email",
+        "website",
+        "facebook_link",
+        "twitter_link",
+        "linkedin_link",
+        "google_plus_link",
+        "youtube_link",
+        "show_teacher_contact_number",
+        "show_teacher_email",
+        "show_teacher_date_of_joining",
+        "show_teacher_age",
+        "page_length"
+	],
+	"upload_path": { 
+		"student_photo": "uploads/student_photo",
+		"father_photo": "uploads/father_photo",
+		"mother_photo": "uploads/mother_photo",
+		"employee_photo": "uploads/employee_photo"
+	},
+	"pagination": [
+		"1","5","10","12","25","50","100"
+	],
+	"mail_drivers": [
+		{
+			"text": "Mail",
+			"value": "mail"
+		},
+		{
+			"text": "Sendmail",
+			"value": "sendmail"
+		},
+		{
+			"text": "Mailgun",
+			"value": "mailgun"
+		},
+		{
+			"text": "SMTP",
+			"value": "smtp"
+		},
+		{
+			"text": "Log",
+			"value": "log"
+		}
+	],
+	"color_themes": [
+		{ 
+			"text": "Blue",
+			"value": "blue" 
+		},
+		{ 
+			"text": "Red",
+			"value": "red"
+		},
+		{ 
+			"text": "Default",
+			"value": "default"
+		},
+		{ 
+			"text": "Green",
+			"value": "green"
+		},
+		{ 
+			"text": "Megna",
+			"value": "megna"
+		},
+		{ 
+			"text": "Purple",
+			"value": "purple"
+		}
+	],
+	"directions": [
+		{ 
+			"text": "Right to Left",
+			"value": "rtl"
+		},
+		{ 	"text": "Left to Right",
+			"value": "ltr"
+		}
+	],
+	"sidebar": [
+		{ 
+			"text": "Mini",
+			"value": "mini"
+		},
+		{ 	"text": "Normal",
+			"value": "normal"
+		}
+	],
+	"date_formats": [
+		{ 
+			"text": "DD-MM-YYYY",
+			"value": "DD-MM-YYYY"
+		},
+		{ 
+			"text": "MM-DD-YYYY",
+			"value": "MM-DD-YYYY"
+		},
+		{ 
+			"text": "DD-MMM-YYYY",
+			"value": "DD-MMM-YYYY"
+		},
+		{ 
+			"text": "MMM-DD-YYYY",
+			"value": "MMM-DD-YYYY"
+		},
+		{ 
+			"text": "YYYY-MM-DD",
+			"value": "YYYY-MM-DD"
+		}
+	],
+	"time_formats": [
+		{ 
+			"text": "H:mm",
+			"value": "H:mm"
+		},
+		{ 
+			"text": "h:mm a",
+			"value": "h:mm a"
+		}
+	],
+	"notification_positions": [
+		{ 
+			"text": "Top Right",
+			"value": "toast-top-right"
+		},
+		{ 
+			"text": "Top Left",
+			"value": "toast-top-left"
+		},
+		{ 
+			"text": "Bottom Right",
+			"value": "toast-bottom-right"
+		},
+		{ 
+			"text": "Bottom Left",
+			"value": "toast-bottom-left"
+		}
+	]
+}
